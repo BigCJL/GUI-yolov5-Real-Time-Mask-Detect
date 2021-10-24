@@ -1,14 +1,28 @@
 BigCJL
 
+**This project is based on YOLOV5, through which I have trained my own datasets to detect the face masks**
+
+model file(suffix is .onnx):
+link：https://pan.baidu.com/s/1G9nN1_BF7XGulMOV1VtqGw 
+Extract code：bohd
+
+**Usage**
+* step1:download the given model file
+* step2:change the direction where you store the model file at the first line of my code, eithor cpp or python is ok.
+* step3:ensure your opencv version >= 4.5.2
+***
+
+
+
 博客：https://blog.csdn.net/m0_56155877/article/details/119280146?spm=1001.2014.3001.5501
 
-
-使用yolov5训练的一个人脸口罩检测模型，并将模型导出为onnx文件，使用opencv的dnn模块读取模型并进行实时推理，推理速度与你的cpu性能有关。
-提供了图形化的界面，可以选择图片、视频、实时检测三种功能。
+***
+**基于yolov5训练的一个人脸口罩检测模型，并将模型导出为onnx文件，使用opencv的dnn模块读取模型并进行实时推理，推理速度与你的cpu性能有关。
+提供了图形化的界面，可以选择图片、视频、实时检测三种功能。**
 
 ![image](https://user-images.githubusercontent.com/79361803/133790512-1f8df5d1-e5cb-40c3-8f77-200d5503df41.png)
 
-
+***
 运行步骤：
 * 1. 下载.onnx模型文件，这是我已经训练好的口罩检测模型，放到代码的相同路径下，当然你也可以在代码里自定义路径
 链接：https://pan.baidu.com/s/1G9nN1_BF7XGulMOV1VtqGw 
